@@ -4,17 +4,21 @@
              x:Class="AppCustoViagem.App">
     
     <Application.Resources>
+       
 
+        
+        
         <Style TargetType="NavigationPage">
-            <Setter Property="BackgroundColor" Value="#CCC" />
-            <Setter Property="Padding" Value="15" />
-            <Setter Property="NavigationPage.BarBackgroundColor" Value="DarkOliveGreen" />
+            <Setter Property="BackgroundColor" Value="#cc0044" />
+            <Setter Property="Padding" Value="10" />
+            <Setter Property="NavigationPage.BarBackgroundColor" Value="#ffffff" />
+            <Setter Property="BarTextColor" Value="#cc0044"/>
         </Style>        
 
-        <Style TargetType="Frame">            
-            <Setter Property="BackgroundColor" Value="#EEE" />
-            <Setter Property="HasShadow" Value="True" />
-            <Setter Property="CornerRadius" Value="5" />
+        <Style TargetType="Frame">
+            <Setter Property="BackgroundColor" Value="#ffffff" />
+            <Setter Property="HasShadow" Value="true" />
+            <Setter Property="CornerRadius" Value="10" />
             <Setter Property="Padding" Value="10" />
             <Setter Property="Margin" Value="0, 5, 0, 5" />
         </Style>
@@ -23,7 +27,7 @@
             <Setter Property="HorizontalTextAlignment" Value="Center" />
             <Setter Property="TextTransform" Value="Uppercase" />
             <Setter Property="FontAttributes" Value="Bold" />
-            <Setter Property="TextColor" Value="DarkOliveGreen" />
+            <Setter Property="TextColor" Value="#cc0044" />
             <Setter Property="FontSize" Value="Large" />
         </Style>
  
